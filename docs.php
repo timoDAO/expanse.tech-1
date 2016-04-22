@@ -1,5 +1,5 @@
-<?php include_once('i8n.php'); ?>
-<?php include('./header.php'); ?>
+<?php include_once('i8n/i8n.php'); ?>
+<?php include('header.php'); ?>
 <section class="navspacer">&nbsp;</section>
 <div id="documentation" class="page">
 

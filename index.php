@@ -1,4 +1,4 @@
-<?php include_once('i8n.php'); ?>
+<?php include_once('i8n/i8n.php'); ?>
 <?php include_once('header.php'); ?>
 <div class="navspacer">&nbsp;</div>
 <section class="section1">
