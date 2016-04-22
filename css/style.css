@@ -987,3 +987,6 @@ color:#fff;
 /* Documentation */
 .doc_title{text-align:center;color:#00D0D0 !important;}
 .circle01 .fa,.circle02 .fa  { line-height: inherit;}
+.downloadtable{border:1px solid gray;text-align:center;float:left;margin-left:80px;width:400px;}
+.downloadtable td{border:1px solid gray;}
+.downloadtable img{width:64px;height:64px;}

@@ -32,18 +32,18 @@
                     <div class="clearfix">
                         <strong>Download</strong>
                         <p>Download Expanse for your preferred platform:</p>
-                        <table width="400" border="1" class="centertable" align="center" style="float:left;margin-left:80px;">
+                        <table class="centertable downloadtable">
                           <tbody>
                           <tr> <td colspan="4">GEXP<br>
                             Current Version: v1.3.5</td></tr>
                             <tr>
-                              <td><img src="/images/winicon2.png" width="64" height="64" alt="" style="width:64px;height:64px;"/><br>
+                              <td><img src="/images/winicon2.png" width="64" height="64" alt="windows"/><br>
                               Windows</td>
-                              <td><img src="/images/macicon.png" width="120" height="152" alt="" style="width:49px;height:64px;"/><br>
-                              Mac</td>
-                              <td><img src="/images/icon_linux.png" width="64" height="64" alt="" style="width:64px;height:64px;"/><br>
+                              <td><img src="/images/macicon.png" width="64" height="64" alt="osx" /><br>
+                              OSX</td>
+                              <td><img src="/images/icon_linux.png" width="64" height="64" alt="linux" /><br>
                               Linux</td>
-                              <td><img src="/images/icon_git.png" width="64" height="64" alt="" style="width:64px;height:64px;"/><br>
+                              <td><img src="/images/icon_git.png" width="64" height="64" alt="github" /><br>
                               Source</td>
                             
                             </tr>
@@ -61,17 +61,17 @@
                             </tr><tr><td colspan="4">Android Version: <a href="/downloads/gexp-android-arm-21.tar.gz">gexp-android-arm-21.tar.gz</a></td></tr>
                           </tbody>
                         </table>
-                        <table width="400" border="1" class="centertable" align="center" style="float:left;margin-left:60px;">
+                        <table class="centertable downloadtable">
                           <tbody> <tr> <td colspan="4">EXPWallet<br>
                             Current Version: v0.0.3</td></tr>
                             <tr>
-                              <td><img src="/images/winicon2.png" width="64" height="64" alt="" style="width:64px;height:64px;"/><br>
+                              <td><img src="/images/winicon2.png" width="64" height="64" alt="" /><br>
                                 Windows</td>
-                              <td><img src="/images/macicon.png" width="120" height="152" alt="" style="width:49px;height:64px;"/><br>
-                                Mac</td>
-                              <td><img src="/images/icon_linux.png" width="64" height="64" alt="" style="width:64px;height:64px;"/><br>
+                              <td><img src="/images/macicon.png" width="64" height="64" alt="osx"/><br>
+                                OSX</td>
+                              <td><img src="/images/icon_linux.png" width="64" height="64" alt="linux"/><br>
                                 Linux</td>
-                              <td><img src="/images/icon_git.png" width="64" height="64" alt="" style="width:64px;height:64px;"/><br>
+                              <td><img src="/images/icon_git.png" width="64" height="64" alt="github" /><br>
                                 Source</td>
                             </tr>
                             <tr>
@@ -154,7 +154,6 @@
                 </div>
                 <p>&nbsp;</p>
 			</div>
-		</div>
 	</div> 
 </div><!-- /documentation -->
 <?php include('./footer.php'); ?>
