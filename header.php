@@ -1,9 +1,14 @@
+<?php if($_SERVER['SCRIPT_NAME']!='/index.php') $og_page=$_SERVER['SCRIPT_NAME']; ?>
 <!DOCTYPE html>
 <html >
   <head>
     <meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:url"                content="http://www.expanse.tech<?php echo $og_page; ?>" />
+	<meta property="og:title"              content="Expanse" />
+	<meta property="og:description"        content="Expanse Official Website" />
+	<meta property="og:image"              content="http://www.expanse.tech/images/expbig.jpg" />
     <title><?php echo $i8n['global_title']; ?></title>
     <link rel="stylesheet" href="/css/normalize.css">
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
