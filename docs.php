@@ -130,27 +130,28 @@
                   </p>
                   <p>&nbsp;</p>
                 </div>
-                <div><h2 id="accounts">Managing Accounts</h2><hr />
-                  <p><strong>Creating a New Account</strong></p>
-                  <p>To Create an account using gexp from your native console, run the command geth account new, and you will be prompted for a password.<br>
+                <div><h2 id="accounts"><?php echo $i8n['userguide_accounts_title']; ?></h2><hr />
+                  <p><strong><?php echo $i8n['userguide_accounts_create_title']; ?></strong></p>
+                  <p><?php echo $i8n['userguide_accounts_create_desc']; ?>
+                  <br>
                     <code>gexp --password &lt;passwordfile&gt; account new</code><br>
-                  This method is not recommended since it may leave a record of your password in the console log.</p>
-                  <p>To Create an account inside a running expanse console instance, run the command:<br>
+                  <?php echo $i8n['userguide_accounts_create_warn']; ?></p>
+                  <p><?php echo $i8n['userguide_accounts_create_run']; ?>:<br>
       <code>personal.newAccount("passphrase")</code></p>
                   <br />
-                  <p><strong>Deleteing an Account</strong></p>
-                  <p>Accounts cannot be deleted from within the client or console. To Delete an account, delete the file associated with the account from your keystore folder. Be careful not to delete any other files. It is recommended to back up all keys created with your wallet. Please exercise extra caution to verify you only delete the keys you intend to.</p>
+                  <p><strong><?php echo $i8n['userguide_accounts_delete_title']; ?></strong></p>
+                  <p><?php echo $i8n['userguide_accounts_delete_desc']; ?></p>
                   <p>&nbsp;</p>
                 </div>
-                <div><h2 id="transactions">Sending Transactions</h2><hr />
-                <strong>Sending a Transaction from GEXP</strong>
-                <p>To send a transaction from gexp, use the console command exp.sendTransaction,  replacing the  from and to account addresses with the desired sender and recipient addresses respectively: <br>
+                <div><h2 id="transactions"><?php echo $i8n['userguide_sending_title']; ?></h2><hr />
+                <strong><?php echo $i8n['userguide_sending_gexp_title']; ?></strong>
+                <p><?php echo $i8n['userguide_sending_gexp_desc']; ?><br>
                   sendTransaction({from:"FROMACCOUNT", to:"TOACCCOUNT", value: AMOUNTINWEI});</p>
-                <p>Example: Sending 1 EXP to account 0x00 from account 0x00.</p>
+                <p><?php echo $i8n['userguide_sending_gexp_example']; ?></p>
                 <p><code>exp.sendTransaction({from:"0x00", to:"0x00", value: web3.toWei(1, "expanse")});</code></p>
                 <br />
-                <p><strong>Sending a Transaction from EXPWallet </strong> </p>
-                <p>To send a transaction using expwallet, simply click the Transactions tab, select the address you would like to send from, enter the to address, amount(and gas, if desired) and cick Send.</p>
+                <p><strong><?php echo $i8n['userguide_sending_wallet_title']; ?></strong> </p>
+                <p><?php echo $i8n['userguide_sending_wallet_desc']; ?></p>
                 </div>
                 <p>&nbsp;</p>
 			</div>

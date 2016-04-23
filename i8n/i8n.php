@@ -1,6 +1,6 @@
 <?php
 $valid_langs = array("en");
-$valid_pages = array("index", "docs");
+$valid_pages = array("/index.php", "/docs.php");
 
 if(isset($_GET['lang'])) {$_COOKIE['lang']=strtolower($_GET['lang']);setcookie("lang", strtolower($_GET['lang']));}
 
@@ -20,8 +20,8 @@ if(isset($_COOKIE['lang'])){
 if (!in_array(strtolower($lang), $valid_langs)) $lang="en"; 
 
 $page=$_SERVER['SCRIPT_NAME'];
-if (!in_array(strtolower($page), $valid_pages)) $page="index"; 
+if (!in_array(strtolower($page), $valid_pages)) $page="/index.php"; 
 
 include_once('i8n/'.$lang.'/global.php'); 		// include site wide translated values
-include_once('i8n/'.$lang.'/'.$page.'.php'); 	// include page specific translated values
+include_once('i8n/'.$lang.$page); 	// include page specific translated values
 ?>
