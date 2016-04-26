@@ -50,7 +50,7 @@ $i8n['main_documentation_roadmap']='Roadmap';
 $i8n['main_documentation_whitepaper']='Whitepaper';
 
 //Main Page : Team
-$i8n['main_team_heading']='Rencontrez l\'équipe';
+$i8n['main_team_heading']='Rencontrez l\'Équipe';
 $i8n['main_team_title_chris']='Lead Développeur ';
 $i8n['main_team_desc_chris']='Chris est un développeur de cryptodevises avec un haut niveau d\'expertise de la technologie blockchain. Il a une connaissance variée de l\'industrie et une forte réputation dans la communauté.';
 $i8n['main_team_title_dan']='Co-Développeur';
