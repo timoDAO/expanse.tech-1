@@ -510,6 +510,7 @@ h4 > br {
 	border-color: #1d4c54;
 	border-width: 2px;
 }
+.circle02:hover{border-color: #ffffff;}
 .btn0:after {
 	font-size: 18px;
 	padding-left: 15px;
@@ -521,6 +522,7 @@ h4 > br {
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
 }
+.btn0:hover{color:#1d4c54;}
 .btn0:hover:after {
 	padding-left: 5px;
 	color: #245c65 !important;	

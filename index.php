@@ -219,10 +219,10 @@
               <div class="circle02"><i class="fa fa-linux" aria-hidden="true"></i></div>
               <div class="btn0" ><?php echo $i8n['main_downloads_download']; ?></div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 circles"><a href="//github.com/expanse-project/go-expanse">
-              <div class="circle02"><i class="fa fa-github" aria-hidden="true"></i></div>
-              <div class="btn0">Github Source</div>
-              </a></div>
+            <div class="col-lg-3 col-md-3 col-sm-6 circles">
+              <div class="circle02"><a href="//github.com/expanse-project/go-expanse"><i class="fa fa-github" aria-hidden="true"></i></a></div>
+              <div class="btn0"><a href="//github.com/expanse-project/go-expanse">Github Source</a></div>
+              </div>
           </div>
         </div>
       </div>
