@@ -42,10 +42,7 @@ The ampersand ```&``` should be represented with ```&amp```.
 * **English Translation**: Sandro Ieva, Daniel Conway
 * **French Translation**: Timothée Gimbert
 
-## Translations Needed:
-#### Current Translations Needing Updates:
-* French [currently old site version]
-
-#### Top Languages Needing Translation:
+## Top Translations Needed:
 * Chinese
 * Russian
+* Japanese
