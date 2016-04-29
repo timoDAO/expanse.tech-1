@@ -46,7 +46,7 @@ $i8n['main_documentation_accounts']='Gestion des Comptes';
 $i8n['main_documentation_tx']='Envoyer des Transactions';
 $i8n['main_documentation_tech']='Documentations Techniques';
 $i8n['main_documentation_guide']='Guide utilisateur';
-$i8n['main_documentation_roadmap']='RoadmaFR';
+$i8n['main_documentation_roadmap']='RoadmapFR';
 $i8n['main_documentation_whitepaper']='Whitepaper';
 
 //Main Page : Team
