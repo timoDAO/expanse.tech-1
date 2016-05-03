@@ -1,6 +1,6 @@
 <?php
 //Expanse Internationalzation Language File - Français : Global 
-//Version: 1.1.0
+//Version: 1.1.1
 
 //Main Page : Heading
 $i8n['main_headline']='plateforme blockchain<br />décentralisée et communautaire';
