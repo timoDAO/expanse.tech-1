@@ -1,6 +1,6 @@
 <?php
 //Expanse Internationalzation Language File - Français : Docs 
-//Version: 1.1.0
+//Version: 1.1.1
 
 // Documentation : User Guide : Menu
 $i8n['userguide_header']='Guide utilisateur';
