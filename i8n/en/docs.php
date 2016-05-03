@@ -49,10 +49,10 @@ $i8n['userguide_mining_cors']='It is required that rpc is enabled and rpccorsdom
 // Documentation : User Guide : Managing Accounts
 $i8n['userguide_accounts_title']='Managing Accounts';
 $i8n['userguide_accounts_create_title']='Creating a New Account';
-$i8n['userguide_accounts_create_desc']='To Create an account using gexp from your native console, run the command geth account new, and you will be prompted for a password.';
-$i8n['userguide_accounts_create_warn']='This method is not recommended since it may leave a record of your password in the console log.';
 $i8n['userguide_accounts_create_run']='To Create an account inside a running expanse console instance, run the command';
-$i8n['userguide_accounts_delete_title']='Deleteing an Account';
+$i8n['userguide_accounts_create_desc']='To Create an account using gexp from your native console, run the command geth account new, and you will be prompted for a password.';
+$i8n['userguide_accounts_create_warn']='This second method is not recommended since it may leave a record of your password in the console log.';
+$i8n['userguide_accounts_delete_title']='Deleting an Account';
 $i8n['userguide_accounts_delete_desc']='Accounts cannot be deleted from within the client or console. To Delete an account, delete the file associated with the account from your keystore folder. Be careful not to delete any other files. It is recommended to back up all keys created with your wallet. Please exercise extra caution to verify you only delete the keys you intend to.';
 // Documentation : User Guide : Sending Transactions
 $i8n['userguide_sending_title']='Sending Transactions';
