@@ -5,20 +5,20 @@
 //Main Page : Heading
 $i8n['main_headline']='plateforme blockchain<br />décentralisée et communautaire';
 $i8n['main_description']='Expanse est une plateforme cryptographique d\'informations, d\'applications, et de contrats. Le projet est géré par ses utilisateurs au travers d\'une organisation communautaire décentralisée, ouverte et équitable.';
-$i8n['main_readmore']='read more';
+$i8n['main_readmore']='en savoir plus';
 
 //Main Page : About
 $i8n['main_about_what']='Qu\'est ce que Expanse?';
-$i8n['main_about_left']='Expanse est une plateforme cryptographique d\'informations, d\'applications, et de contrats. Le projet Expanse est géré par sa communauté au travers d\'une DAO (Organisation Autonome Décentralisée) au sein de laquelle ses membres collaborent directement, partagent des idées et des concepts, et votent pour déterminer le développement futur du projet et prendre les décisions managériales.';
-$i8n['main_about_right']='Mettant en avant un panel grandissant de Contrats Intelligents, les dApps et toolkits fournissent aux utilisateurs et organisations de tout type un accès intuitif à l\'une des applications les plus enthousiasmantes de la technologie blockchain. Le projet fournit des outils et services que les entreprises, les associations, et même les gouvernements peuvent utiliser facilement et intuitivement pour mettre en œuvre la technologie blockchain, depuis la création et la gestion d\'Actifs Intelligents à la réalisation et la distribution numérique.';
-$i8n['main_about_title1']='Contrats Intelligents & DApps';
+$i8n['main_about_left']='Expanse est une plateforme cryptographique d\'informations, d\'applications, et de contrats. Le projet Expanse est géré par sa communauté au travers d\'une DAO (Organisation Autonome Décentralisée) au sein de laquelle ses membres collaborent directement, partagent des idées et des concepts, et votent pour déterminer le développement futur du projet et pour prendre ensemble les décisions managériales importantes.';
+$i8n['main_about_right']='Mettant en avant un panel grandissant de Contrats Intelligents, les dApps et toolkits fournissent aux utilisateurs et organisations de tout type un accès intuitif à l\'une des applications les plus attendues de la technologie blockchain. Le projet fournit des outils et services que les entreprises, les associations, et même les gouvernements peuvent utiliser facilement et intuitivement pour mettre en œuvre la technologie blockchain, de la création et la gestion d\'Actifs Intelligents à la réalisation et la distribution numérique.';
+$i8n['main_about_title1']='Smart Contracts & DApps';
 $i8n['main_about_desc1']='Des applications diversifiées, dynamiques et décentralisées, opérant sur le blockchain Expanse, allant des marchés décentralisés, registres globaux, accords imposés par calcul, jusqu\'à toute structure opérant exclusivement sur la blockchain.';
 $i8n['main_about_title2']='Le TOUT décentralisé.';
-$i8n['main_about_desc2']='Stockage Décentralisé de Données, Tenue de Registres, Traitement de l\'Information, Actifs Intelligents, et plus encore. Expanse permet un monde innovant bâti sur sa technologie distribuée.';
+$i8n['main_about_desc2']='Stockage Décentralisé de Données, Tenue de Registres, Traitement de l\'Information, Smart Assets, et plus encore. Expanse permet un monde innovant bâti sur sa technologie distribuée.';
 $i8n['main_about_title3']='Rapide. Intuitif. Puissant.';
 $i8n['main_about_desc3']='La technologie blockchain rencontrent les Contrats Intelligents Complexes pour vous apporter des résultats sans précédents. Vitesse exponentiellement améliorée, fiabilité et performance permettent des réductions de coût drastiques en comparaison des solutions traditionnelles. ';
 $i8n['main_about_title4']='Communauté Expanse';
-$i8n['main_about_desc4']='Le Projet Expanse est géré par une structure décentralisée opérant sur le Blockchain Expanse. Cette entité est responsable des décisions significatives comme les nouveautés ou mises-à-jour sur lesquelles doivent se concentrer les développeurs.';
+$i8n['main_about_desc4']='Le Projet Expanse est géré par une structure décentralisée opérant sur la blockchain Expanse. Cette entité est responsable des décisions significatives comme les nouveautés ou mises-à-jour sur lesquelles doivent se concentrer les développeurs.';
 
 //Main Page : Downloads
 $i8n['main_downloads_header']='Téléchargements';
@@ -46,7 +46,7 @@ $i8n['main_documentation_accounts']='Gestion des Comptes';
 $i8n['main_documentation_tx']='Envoyer des Transactions';
 $i8n['main_documentation_tech']='Documentations Techniques';
 $i8n['main_documentation_guide']='Guide utilisateur';
-$i8n['main_documentation_roadmap']='Roadmap';
+$i8n['main_documentation_roadmapFR']='Roadmap';
 $i8n['main_documentation_whitepaper']='Whitepaper';
 
 //Main Page : Team
@@ -77,6 +77,6 @@ $i8n['main_community_subforum1']='Nouvelles &amp; Annonces';
 $i8n['main_community_subforum2']='Développement &amp; Technique';
 $i8n['main_community_subforum3']='Contrats &amp; Applications Décentralisées';
 $i8n['main_community_interact']='Interagir en direct';
-$i8n['main_community_interact_desc']='La communauté est très active sur Slack. Si vous désirez participer ou discuter de Expanse avec la communauté et les développeurs.';
+$i8n['main_community_interact_desc']='La communauté est très active sur Slack. Si vous désirez participer ou discuter de Expanse avec la communauté et les développeurs:';
 $i8n['main_community_social']='Media &amp; Blog';
 $i8n['main_community_blog']='BLOG EXPANSE';
