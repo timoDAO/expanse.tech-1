@@ -3,7 +3,7 @@
 //Version: 0.0.1
 
 // Documentation : User Guide : Menu
-$i8n['userguide_header']='User Guide';
+$i8n['userguide_header']='Guia de Usuario';
 $i8n['userguide_menu_install']='Installation';
 $i8n['userguide_menu_backup']='Backing Up &amp; Restoring';
 $i8n['userguide_menu_mining']='Mining Quick Start';
