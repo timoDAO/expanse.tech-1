@@ -28,7 +28,7 @@
               <tbody>
                 <tr>
                   <td colspan="4">GEXP<br>
-                    Current Version: v1.3.5</td>
+                    Current Version: v1.4.5</td>
                 </tr>
                 <tr>
                   <td><img src="/images/winicon2.png" width="64" height="64" alt="windows"/><br>
