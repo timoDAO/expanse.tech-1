@@ -139,10 +139,10 @@
     <div class="modal-dialog vertical-align-center">
       <div class="modal-content">
         <div class="modal-header">
-          <h1 class="modal-title" id="ModelLabel_walletosx">EXPWallet v0.0.3 OSX</h1>
+          <h1 class="modal-title" id="ModelLabel_walletosx">Expanse Mist dApp Wallet v0.7.2 (OSX)</h1>
         </div>
         <div class="modal-body">
-          <div class="btn0"><a href="/downloads/expwallet-mac.zip">expwallet-mac.zip</a></div>
+          <div class="btn0"><a href="/downloads/Expanse-Wallet-macosx-0-7-2.tar.gz">Expanse-Wallet-macosx-0-7-2.tar.gz (x64)</a></div>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -156,10 +156,11 @@
     <div class="modal-dialog vertical-align-center">
       <div class="modal-content">
         <div class="modal-header">
-          <h1 class="modal-title" id="ModelLabel_walletwin">EXPWallet v0.0.3 WIN</h1>
+          <h1 class="modal-title" id="ModelLabel_walletwin">Expanse Mist dApp Wallet v0.7.2 (Windows)</h1>
         </div>
         <div class="modal-body">
-          <div class="btn0"><a href="/downloads/expwallet-win.zip">expwallet-win.zip</a></div>
+          <div class="btn0"><a href="/downloads/Expanse-Wallet-win32-0-7-2.zip">Expanse-Wallet-win32-0-7-2.zip (x86)</a></div>
+          <div class="btn0"><a href="/downloads/Expanse-Wallet-win64-0-7-2.zip">Expanse-Wallet-win64-0-7-2.zip (x64)</a></div>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -173,9 +174,12 @@
     <div class="modal-dialog vertical-align-center">
       <div class="modal-content">
         <div class="modal-header">
-          <h1 class="modal-title" id="ModelLabel_walletlinux">EXPWallet v0.0.3 LINUX</h1>
+          <h1 class="modal-title" id="ModelLabel_walletlinux">Expanse Mist dApp Wallet v0.7.2 (Linux)</h1>
         </div>
-        <div class="modal-body">COMING SOON</div>
+        <div class="modal-body">
+          <div class="btn0"><a href="/downloads/Expanse-Wallet-linux32-0-7-2.tar.gz">Expanse-Wallet-linux32-0-7-2.tar.gz (x86)</a></div>
+          <div class="btn0"><a href="/downloads/Expanse-Wallet-linux64-0-7-2.tar.gz">Expanse-Wallet-linux64-0-7-2.tar.gz (x64)</a></div>
+        </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
         </div>
@@ -252,10 +256,14 @@
               <div class="circle02"><i class="fa fa-windows" aria-hidden="true"></i></div>
               <div class="btn0"><?php echo $i8n['main_downloads_download']; ?></div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 circles">
+            <div class="col-lg-3 col-md-3 col-sm-6 circles"  data-toggle="modal" data-target="#myModal6"">
               <div class="circle02"><i class="fa fa-linux" aria-hidden="true"></i></div>
-              <div class="btn0"><?php echo $i8n['main_downloads_soon']; ?></div>
+              <div class="btn0"><?php echo $i8n['main_downloads_download']; ?></div>
             </div>
+              <div class="col-lg-3 col-md-3 col-sm-6 circles">
+              <div class="circle02"><a href="//github.com/expanse-org/meteor-dapp-wallet"><i class="fa fa-github" aria-hidden="true"></i></a></div>
+              <div class="btn0"><a href="//github.com/expanse-org/meteor-dapp-wallet">Github Source</a></div>
+              </div>
           </div>
         </div>
       </div>
