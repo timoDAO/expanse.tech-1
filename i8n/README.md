@@ -1,7 +1,7 @@
 # expanse.tech international language support
 The www.expanse.tech website translation engine. The engine allows the user to specify a preferred language setting, and if the user specific setting is invalid or left unspecified, automatically detects the language based on the web browsers language setting. If the selected/set language is not in the valid_languages array it currently defaults to EN. 
 
-** Current Translation Version *1.1.0* **
+** Current Translation Version *1.1.1* **
 
 ## Contribution Guidelines
 It is encouraged for users both to create new translations for those languages not yet translated, as well as aid in the maintenance or accuracy improvement of existing translations. There is a list of existing languages currently requiring updates as well as key desired translations at the bottom of this document.
@@ -41,6 +41,7 @@ The ampersand ```&``` should be represented with ```&amp```.
 * **i8n Implementation**: Daniel Conway
 * **English Translation**: Sandro Ieva, Daniel Conway
 * **French Translation**: Timothée Gimbert
+* **Portugese Translation**: Antonio Madeira
 
 ## Top Translations Needed:
 * Chinese
