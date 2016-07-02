@@ -68,7 +68,8 @@ $i8n['main_team_title_sandro']='Art Director';
 $i8n['main_team_desc_sandro']='Sandro has worked with several blockchain companies from around the world. He is skilled with visual conceptualization and design. An expert at creating interfaces, websites, motion graphics, 3D, and creative art.';
 $i8n['main_team_title_dave']='Official Forum Guru';
 $i8n['main_team_desc_dave']='Keen on technology and deployment of community expanding software, Dave is a community and blockchain enthusiast with many years experience in forum and community moderation.';
-
+$i8n['main_team_title_nathan']='Developer';
+$i8n['main_team_desc_nathan']='A self taught programmer from Sydney Australia that likes most programming languages, his favorites being Node or any Javascript. Nathan has worked on a few other crypto projects in the past, and is a developer on the MPOS project, and helped with stratum (python) programming.';
 //Main Page : Community 
 $i8n['main_community_heading']='Community';
 $i8n['main_community_title']='Community Forum';

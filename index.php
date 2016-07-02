@@ -42,7 +42,7 @@
       </div>
       <div class="col-lg-8 col-md-10 col-sm-12">
         <div class="video_holder">
-          <iframe src="https://player.vimeo.com/video/163723303?color=6fd6d4&title=0&byline=0&portrait=0" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          <iframe width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen src="https://www.youtube.com/embed/RWPeWQrnYVg"></iframe>
         </div>
       </div>
       <div class="col-lg-2 col-md-1 col-sm-12">
@@ -399,6 +399,12 @@
       <div class="col-lg-4 col-md-6 col-sm-6 circles">
         <div class="team_pic tm08"></div>
         <p class="name_text">Dave Wyrm</p>
+        <p class="title_text"><?php echo $i8n['main_team_title_dave']; ?></p>
+        <p  class="team_text"><?php echo $i8n['main_team_desc_dave']; ?></p>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-6 circles">
+        <div class="team_pic tim09"></div>
+        <p class="name_text">Nathan Patten</p>
         <p class="title_text"><?php echo $i8n['main_team_title_dave']; ?></p>
         <p  class="team_text"><?php echo $i8n['main_team_desc_dave']; ?></p>
       </div>

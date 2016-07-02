@@ -1,5 +1,5 @@
 <?php
-$valid_langs = array("en", "fr");
+$valid_langs = array("en", "fr", "pt");
 $valid_pages = array("/index.php", "/docs.php");
 
 if(isset($_GET['lang'])) {$_COOKIE['lang']=strtolower($_GET['lang']);setcookie("lang", strtolower($_GET['lang']));}
