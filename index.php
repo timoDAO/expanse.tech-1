@@ -403,7 +403,7 @@
         <p  class="team_text"><?php echo $i8n['main_team_desc_dave']; ?></p>
       </div>
       <div class="col-lg-4 col-md-6 col-sm-6 circles">
-        <div class="team_pic tim09"></div>
+        <div class="team_pic tm09"></div>
         <p class="name_text">Nathan Patten</p>
         <p class="title_text"><?php echo $i8n['main_team_title_dave']; ?></p>
         <p  class="team_text"><?php echo $i8n['main_team_desc_dave']; ?></p>
